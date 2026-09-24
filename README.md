@@ -7,7 +7,6 @@ Next.js admin dashboard for DummyJSON products. Users log in, then search, filte
 ## Setup
 
 ```bash
-cd product-admin-dashboard
 npm install
 npm run dev
 ```
@@ -72,7 +71,12 @@ Fast typing plus a slow API (`delay=2000`) can return old search results after n
 ## Where AI helped
 
 AI helped scaffold the Next.js file layout, DummyJSON query params, and Tailwind structure. The race-condition handling, URL sanitizing, search-vs-category rule, and local overlay were written to match the assignment and should be walk-through-ready line by line.
+## Deployment
+The application is deployed on Vercel.
 
-## Deploy
+- **Live Demo:** https://productadmindashboard-henna.vercel.app/products
+- **Framework:** Next.js
+- **Build Command:** `npm run build`
+- **Deployment Platform:** Vercel
 
-Connect the GitHub repo to [Vercel](https://vercel.com). Framework preset: Next.js. Build command: `npm run build`.
+The project is connected to GitHub and can be automatically deployed through Vercel.
